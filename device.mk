@@ -115,12 +115,14 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
-TW_FRAMERATE := 60
+
+# Set panel refresh rate to 90 Hertz for smoother experience
+# Possible supported frequencies: 30, 60, 90
+TW_FRAMERATE := 90
 
 #Properties
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
-
 
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
