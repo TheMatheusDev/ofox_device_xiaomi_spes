@@ -34,7 +34,7 @@ fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Fox-specific flags
-	export OF_TARGET_DEVICES="spes,spesn"
+	export FOX_TARGET_DEVICES="spes,spesn"
 	export TARGET_DEVICE_ALT="spesn"
 	export FOX_ENABLE_APP_MANAGER=1
 	export FOX_DELETE_AROMAFM=1
