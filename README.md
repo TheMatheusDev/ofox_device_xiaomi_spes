@@ -1,4 +1,4 @@
-## Device tree for building twrp for Redmi Note 11
+## Device tree for building OrangeFox for Redmi Note 11
 
 The Xiaomi Redmi Note 11 (codenamed _"spes"_) is a mid-range smartphone from Xiaomi announced in February 2022.
 
